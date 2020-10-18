@@ -1,0 +1,22 @@
+C:\Users\ukush\.jdks\openjdk-15\bin\java.exe -Djline.terminal=NONE "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.2\lib\idea_rt.jar=61967:C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.2\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\ukush\IdeaProjects\kekw\target\scala-2.13\classes;C:\Users\ukush\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.3\scala-library-2.13.3.jar;C:\Users\ukush\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.3.1\jna-5.3.1.jar;C:\Users\ukush\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\jline\jline\3.15.0\jline-3.15.0.jar;C:\Users\ukush\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.3\scala-compiler-2.13.3.jar;C:\Users\ukush\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.3\scala-reflect-2.13.3.jar;C:\Users\ukush\AppData\Roaming\JetBrains\IntelliJIdea2020.2\plugins\Scala\lib\runners.jar scala.tools.nsc.MainGenericRunner -usejavacp -Xjline:off
+Welcome to Scala 2.13.3 (OpenJDK 64-Bit Server VM, Java 15).
+Type in expressions for evaluation. Or try :help.
+
+scala> val h = "Hello"
+val h: String = Hello
+
+scala> val halo = "Halo"
+val halo: String = Halo
+
+scala> val g = "Guten tag"
+val g: String = Guten tag
+
+scala> val text = " Scala! This is "
+val text: String = " Scala! This is "
+
+scala> print(h+text+"Denis Davydov")
+Hello Scala! This is Denis Davydov
+scala> print(halo+text+"Denis Davydov")
+Halo Scala! This is Denis Davydov
+scala> print(g+text+"Denis Davydov")
+Guten tag Scala! This is Denis Davydov
